@@ -1,0 +1,22 @@
+import Attributes from "../modules/Attributes";
+import Banner from "../modules/Banner";
+import Companies from "../modules/Companies";
+import Description from "../modules/Description";
+import Guide from "../modules/Guide";
+import Instruction from "../modules/Instructions";
+import Restrictions from "../modules/Restrictions";
+import styles from "./HomePage.module.css";
+
+const HomePage = () => {
+  return <div className={styles.container}>
+    <Banner />
+    <Attributes />
+    <Description />
+    <Companies />
+    <Instruction />
+    <Guide />
+    <Restrictions />
+    </div>;
+};
+
+export default HomePage;
